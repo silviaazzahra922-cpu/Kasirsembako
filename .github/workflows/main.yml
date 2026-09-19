@@ -14,7 +14,7 @@ jobs:
       - name: Extract project ZIP
         run: |
           unzip -o KasirSembakoAndroid.zip
-          cd "KasirSembakoAndroid (2)/KasirSembakoAndroid"
+          cd KasirSembakoAndroid
           echo "PROJECT_DIR=$PWD" >> $GITHUB_ENV
 
       - name: Setup Java
